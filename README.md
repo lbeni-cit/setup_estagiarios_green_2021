@@ -36,7 +36,7 @@ A instalação pode ser realizada pelo próprio apt-get, dependendo da versão d
 ```shell
 sudo apt-add-repository ppa:deadsnakes/ppa -y
 sudo apt-get update
-sudo apt-get install -y python3.8 python3.8-dev python3.8-distutils python3.8-pip
+sudo apt-get install -y python3.8-dev python3.8-distutils python3.8-pip
 pip3 install virtualenv
 ```
 
@@ -126,8 +126,6 @@ nvm --version
 # 0.37.2
 rvm --version
 # rvm 1.29.12 (manual) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
-go version
-# go version go1.15.6 linux/amd64
 node --version
 # v12.18.3
 ruby --version
